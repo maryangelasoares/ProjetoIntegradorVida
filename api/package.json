@@ -1,0 +1,45 @@
+{
+  "name": "projetoseacoesculturais",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "init-db": "node -e 'require(\"./config/database\").createDatabase().then(() => console.log(\"Banco de dados inicializado.\"))'"
+  },
+  "keywords": [],
+  "author": "Alunos_RPV",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.609.0",
+    "@aws-sdk/lib-storage": "^3.609.0",
+    "aws-sdk": "^2.1654.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1",
+    "mysql2": "^3.11.0",
+    "nodemailer": "^6.9.14",
+    "qrcode": "^1.5.4",
+    "react-helmet": "^6.1.0",
+    "recharts": "^2.12.7",
+    "sequelize": "^6.37.3",
+    "speakeasy": "^2.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "sequelize-cli": "^6.6.2"
+  },
+  "description": ""
+}
