@@ -56,16 +56,16 @@ Crie um arquivo .env na pasta "api" com as seguintes variáveis:
 *Essas variáveis são necessárias para conectar o back-end ao banco de dados MySql e garantir a segurança das autenticações via JWT.*
 
 ### Dependências e Executanto o projeto
-> Acesse o terminal
-1. Navegue até a pasta UI : cd ui;
-   1. npm install;
-   2. npm start.
+Acesse o terminal
+- Navegue até a pasta UI : cd ui;
+   - npm install
+   - npm start
 
-> Acesse um novo terminal
+Acesse um novo terminal
 
-2. Navegue até a pasta API : cd api;
-     1. npm install;
-     2. npm run dev.
+- Navegue até a pasta API : cd api;
+   - npm install
+   - npm run dev
 
 *Obs.: O projeto estará rodando localmente e pronto para ser utilizado.*
 
