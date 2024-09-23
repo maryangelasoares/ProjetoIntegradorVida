@@ -34,7 +34,7 @@ assegura a proteção rigorosa dos dados pessoais dos pacientes, garantindo a pr
 
 ---
 ### Clonando o Repositório
-Para clonar um repositório em sua máquina local, você pode usar o seguinte comando no terminal:
+Para clonar o repositório em sua máquina local, você pode usar o seguinte comando no terminal:
 
  - git clone https://github.com/maryangelasoares/ProjetoIntegradorVida.git
 
@@ -55,7 +55,7 @@ Crie um arquivo .env na pasta "api" com as seguintes variáveis:
 
 *Essas variáveis são necessárias para conectar o back-end ao banco de dados MySql e garantir a segurança das autenticações via JWT.*
 
-### Dependências e Executanto o projeto
+### Dependências e Executanto o Projeto
 Acesse o terminal
 - Navegue até a pasta UI : cd ui;
    - npm install
